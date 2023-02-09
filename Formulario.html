@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <header><link rel="stylesheet" href="style2.css">
+    <script>
+        function changebackColorblue(){
+        document.body.style.backgroundColor="blue"};
+
+        function changebackColorred(){
+        document.body.style.backgroundColor="red"};
+        
+        function changebackColorgreen(){
+        document.body.style.backgroundColor="green"};
+
+        function changebackColorAlpha(){
+        document.body.style.backgroundColor=""}
+    </script>
+    </header>
+    <title>Formulario semana 1 // EZ //</title>
+    <body>
+        <form>
+            <label for="Nome">Nome:</label><br>
+            <input type="text" id="Nome">
+            <p>Sexo</p>
+            <input type="radio" id="Masc" name="Sexo" value="Masculino">
+                <label for="Masc">Masculino</label><br>
+            <input type="radio" id="Fem" name="Sexo" value="Feminino">
+                <label for="Fem">Feminino</label><br>
+            <p>Favor de escolher as suas areas de interes da lista:</p>
+                <input type="checkbox">
+                <label for="checkbox">Programacao Front End</label><br>
+                <input type="checkbox">
+                <label for="checkbox">Programacao Back End</label><br>
+                <input type="checkbox">
+                <label for="checkbox">Data Science</label><br>
+                <input type="checkbox">
+                <label for="checkbox">AI & Machine Learning</label><br>
+                <input type="checkbox">
+                <label for="checkbox">Desenvolvimento de Videogames</label><br>
+                <input type="checkbox">
+                <label for="checkbox">Desenvolvimento de sisteas computacionais</label><br>
+                <input type="checkbox">
+                <label for="checkbox">Outras tecnologias</label><br>
+                <br>
+                <br>
+            <input type="submit">
+            <p>Cor de fundo</p>
+            <input type="button" id="B" value="Azul" onclick="changebackColorblue()">
+            <input type="button" id="R" value="Vermelho" onclick="changebackColorred()">
+            <input type="button" id="G" value="Verde" onclick="changebackColorgreen()">
+            <input type="button" id="A" value="Original" onclick="changebackColorAlpha()">
+        </form>
+    </body>
+</html>
